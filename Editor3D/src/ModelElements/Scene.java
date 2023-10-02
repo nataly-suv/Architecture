@@ -7,7 +7,7 @@ public class Scene {
     public int id;
     public List<PoligonalModel> models;
     public List<Flash> flashes;
-    // добавила объек класса Camera, т.к. кратность 1..*, и должен ыть передат хотябы один объект 
+    // добавила объект класса Camera, т.к. кратность 1..*, и должен быть передат хотябы один объект 
     public List<Camera> cameras;
 
     // id в конструктор тоже добавила, т.к мне кажется что это важно при создании экземпляра класса
