@@ -10,18 +10,18 @@ public abstract class Car {
     private String model;
     private Color color;
     private TypeOfBody typeOfBody;
-    private int numOfWHeels;
+    private int numOfWheels;
     private TypeOfGearBox typeOfGearBox;
     private TypeOfFuel typeOfFuel;
     private float engineCapacity;
 
-    public Car(String make, String model, Color color, TypeOfBody typeOfBody, int numOfWHeels,
+    public Car(String make, String model, Color color, TypeOfBody typeOfBody, int numOfWheels,
             TypeOfGearBox typeOfGearBox, TypeOfFuel typeOfFuel, float enginCapacity) {
         this.make = make;
         this.model = model;
         this.color = color;
         this.typeOfBody = typeOfBody;
-        this.numOfWHeels = numOfWHeels;
+        this.numOfWheels = numOfWheels;
         this.typeOfGearBox = typeOfGearBox;
         this.typeOfFuel = typeOfFuel;
         this.engineCapacity = enginCapacity;
@@ -30,7 +30,7 @@ public abstract class Car {
     public void movement() {}
     public void maintenance() {}
     public boolean turnLight() {return true;}
-    public boolean tirnWhapers() {return true;}
+    public boolean turnWhapers() {return true;}
 
 
 
@@ -52,7 +52,7 @@ public abstract class Car {
     }
 
     public int getNumOfWHeels() {
-        return numOfWHeels;
+        return numOfWheels;
     }
 
     public TypeOfGearBox getTypeOfGearBox() {

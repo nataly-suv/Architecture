@@ -12,10 +12,10 @@ public class Pickup extends Car implements IFuelStation, IWipingCar{
 
     private float loadCapacity;
 
-    public Pickup(String make, String model, Color color, int numOfWHeels,
+    public Pickup(String make, String model, Color color, int numOfWheels,
             TypeOfGearBox typeOfGearBox, TypeOfFuel typeOfFuel, float enginCapacity, float loadCapacity) {
                 
-        super(make, model, color, TypeOfBody.PICKUP , numOfWHeels, typeOfGearBox, typeOfFuel, enginCapacity);
+        super(make, model, color, TypeOfBody.PICKUP , numOfWheels, typeOfGearBox, typeOfFuel, enginCapacity);
         this.loadCapacity = loadCapacity;
 
     }
